@@ -53,28 +53,116 @@ table {
 /* TOP NAVBAR */
 
 .top-nav{
-    background-color: blue;
     width: 100%;
     position: absolute;
-    top: 90px;
+    top: 83px;
     text-align: center;
+    height: 36px;
+    z-index: 2;
 }
 .top-nav ul{
-    text-decoration: none;
-    display: inline-block;
 
+    text-decoration: none;
+    float: left;
+    height: 36px;
+    background: 
+        url(../img/globalnav.png) -16px 0 no-repeat;
+    background-size: 2000px 180px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
+
+.top-nav ul>li:first-child{
+    background: 
+        url(../img/globalnav_text.png) -25px 3px, no-repeat;
+        
+        
+}
+.top-nav ul>li:nth-child(2){
+    background: 
+        url(../img/globalnav_text.png) no-repeat -25px -27px;
+        
+}
+.top-nav ul>li:nth-child(3){
+    background: 
+        url(../img/globalnav_text.png) no-repeat -25px -57px;
+        
+}
+.top-nav ul>li:nth-child(4){
+    background: 
+        url(../img/globalnav_text.png) no-repeat -25px -87px;
+        
+}
+
+.top-nav ul>li:nth-child(5){
+    background: 
+        url(../img/globalnav_text.png) no-repeat -25px -117px;
+        
+}
+.top-nav ul>li:nth-child(6){
+    background: 
+        url(../img/globalnav_text.png) no-repeat -25px -147px;
+        
+}
+.top-nav ul>li:nth-child(7){
+    background: 
+        url(../img/globalnav_text.png) no-repeat -25px -177px;
+        
+}
+.top-nav ul>li:nth-child(8){
+    background: 
+        url(../img/globalnav_text.png) no-repeat -25px -207px;
+        
+}
+
+
+
 .top-nav li{
-    background-color: blueviolet;
-    display: inline-block;
-    width: 100px;
-    height: 30px;
+    float: left;
+    width: 104px;
+    height: 36px;
+    border-right: 2px solid rgb(0, 0, 0, 0.2);
+    /* border-image: url(../img/globalheader.png) 25 0 round; */
+        
 }
 .top-nav>div{
-    background-color: aquamarine;
-    display: inline-block;
+    margin: auto;
+    width: 980px;
+    overflow: auto;
+}
+.top-nav>div>div{
+    background: url(../img/globalnav.png) no-repeat -16px 0;
+    background-size: 400px 180px;
+    float: right;
     width: 132px;
-    height: 30px;
+    height: 36px;
+    position: relative;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.search-img{
+    position: absolute;
+    background: url(../img/search_white.png) 0 0 no-repeat;
+    width: 15px;
+    height: 15px;
+    left: 27px;
+    top: 11px;
+}
+.top-nav input{
+    border-radius: 12px;
+    margin-top: 8px;
+    background: 
+        url(../img/globalnav.png) -16px -9px no-repeat;
+    background-size: 2000px 180px;
+    border-top-color: grey;
+    border-left-color: grey;
+    border-right-color: grey;
+    border-bottom-color: lightgrey;
+    border-width: 1px;
+    margin-left: 12px;
+    width: 106px;
+    line-height: 16px;
 }
 
 /* TOP NAVBAR */
@@ -90,10 +178,23 @@ main>aside{
 }
 
 .hero{
-    background-color: aqua;
+    background: url(../img/your_verse_hero.jpg) 0px -777px no-repeat;
     height: 538px;
     width: 1440px;
     margin: auto;
+    position: relative;
+    z-index: 1;
+}
+.hero>div{
+    position: absolute;
+    top: 45px;
+    width: 100%;
+    height: 335px;
+    background: 
+        url(../img/your_verse_title_small.png) no-repeat 185px 104px, 
+        url(../img/your_verse_subhead_small.png) no-repeat 185px 198px, 
+        url(../img/cta_your_verse_27pt.png) no-repeat 187px 305px;
+    z-index: 2;
 }
 .products{
     width: 1440px;
@@ -102,11 +203,22 @@ main>aside{
 }
 
 .products>div{
-    background-color: brown;
     float: left;
     width: 25%;
     height: 200px;
 
+}
+.iphone5s{
+    background: url(../img/promo_iphone5s.jpg) 0 0 no-repeat;
+}
+.iphone5c{
+    background: url(../img/promo_iphone5c.jpg) 0 0 no-repeat;
+}
+.hpbd-mac{
+    background: url(../img/promo_30_years.jpg) 0 0 no-repeat;
+}
+.supplier-res{
+    background: url(../img/promo_supplier_responsibility.jpg) 0 0 no-repeat;
 }
 /* MAIN SECTION */
 
